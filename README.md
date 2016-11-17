@@ -6,10 +6,12 @@ The training samples are required to be named sequentially as "sign0.jpg" , "sig
 #####
 for j in range(19):
      image_sources.append("sign"+str(j)+".jpg")
-####     
+####    
+
+The test sample is named forged.jpg but you will be asked for the filename once you enter the program.
 
 The training samples must be exposed with proper focus on the signature and minimal noise.
-It is still under development to fully automate this process.
+It is still under development and I'm trying to fully automate this process.
 
 
 Requirements:
